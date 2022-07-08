@@ -1,0 +1,57 @@
+.home {
+    background-image: url(../../Assets/Desktop/background-home.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+    .title {
+        margin-top: 4rem;
+
+        h1 {
+            text-align: center;
+            font-size: 60px;
+            color: white;
+        }
+
+        .verde {
+            color: #34FF98;
+        }
+
+        .bstadium-text::first-letter {
+            color: #34FF98
+        }
+    }
+
+    .subtitle {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+
+        h3 {
+            text-align: center;
+            color: white;
+            font-size: 40px;
+        }
+    }
+
+    .experiencias {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+
+        h2 {
+            color: white;
+            font-size: 35px;
+        }
+
+        .verde {
+            color: #34FF98;
+        }
+
+        #amarillo {
+            color: #FFCC33;
+            font-size: 50px;
+        }
+
+    }
+}

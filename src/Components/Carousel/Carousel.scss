@@ -1,0 +1,88 @@
+.carousel {
+    background-color: #34FF98;
+
+    .carousel-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3rem 0 3rem 0;
+
+        h1 {
+            text-align: center;
+            width: 70%;
+            padding-bottom: 2rem;
+        }
+    }
+
+    .carousel-imgs {
+        display: flex;
+        justify-content: space-around;
+
+        .carousel-div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-image: url("../../Assets/Desktop/6.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 35%;
+            height: 300px;
+
+            h2 {
+                text-align: center;
+                width: 60%;
+                color: white;
+                padding-top: 7rem;
+            }
+
+            button {
+                background-color: white;
+                padding: .5rem 1rem;
+                border-radius: 10px;
+                border: none;
+                font-size: 18px;
+                font-weight: bold;
+                margin-top: 2rem;
+            }
+        }
+
+        .carousel-div2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-image: url("../../Assets/Desktop/1.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 35%;
+            height: 300px;
+
+            h2 {
+                text-align: center;
+                width: 60%;
+                color: white;
+                padding-top: 6.5rem;
+            }
+
+            button {
+                background-color: white;
+                padding: .5rem 1rem;
+                border-radius: 10px;
+                border: none;
+                font-size: 18px;
+                font-weight: bold;
+                margin-top: 2rem;
+            }
+        }
+    }
+
+    .carousel-puntos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1 {
+            font-size: 70px;
+            ;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+
+    .logo {
+        margin: 0 0 0 3rem;
+    }
+
+    button {
+        margin: 0 3rem 0 0;
+        background-color: #FFCC33;
+        font-size: 20px;
+        padding: 10px 25px;
+        border-radius: 10px;
+        border: none;
+        font-weight: bold;
+    }
+}
