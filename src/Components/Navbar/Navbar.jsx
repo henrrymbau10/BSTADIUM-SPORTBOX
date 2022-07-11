@@ -8,9 +8,9 @@ export default function Navbar() {
             <div className="logo">
                 <img src={logo} alt="Logo" />
             </div>
-            <div>
+            {/* <div>
                 <button> DESCUBRE NUESTRO CATÁLOGO</button>
-            </div>
+            </div> */}
         </div>
     )
 }

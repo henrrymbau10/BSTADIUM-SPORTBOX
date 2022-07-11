@@ -13,17 +13,19 @@
     }
 
     .ventajas-content {
-        padding-top: 3rem;
+        padding-top: 5rem;
         display: flex;
         justify-content: space-evenly;
+        align-items: center;
+        padding-bottom: 3rem;
 
         .ventajas-content-img {
             width: 50%;
             text-align: end;
 
             img {
-                width: 226px;
-                margin-right: 4rem;
+                width: 300px;
+                margin-right: 20%;
             }
         }
 
@@ -34,7 +36,7 @@
             .ventajas-content-icons-gift {
                 display: flex;
                 align-items: center;
-                margin: 0 0 3rem 0;
+                margin: 0 0 5rem 0;
 
                 img {
                     width: 30px;
@@ -50,7 +52,7 @@
             .ventajas-content-icons-pack {
                 display: flex;
                 align-items: center;
-                margin: 0 0 3rem 0;
+                margin: 0 0 5rem 0;
 
                 img {
                     width: 30px;
@@ -117,6 +119,17 @@
             flex-direction: column;
             align-items: center;
 
+            .ventajas-content-img {
+            
+    
+                img {
+                    width: 200px;
+                    text-align: center;
+                    margin-right: 0;
+                }
+            }
+    
+
             .ventajas-content-icons {
                 width: 100%;
 
@@ -124,13 +137,15 @@
                     flex-direction: column;
 
                     img {
-                        margin: 0;
+                        margin: 40px 0 20px 0;
                         width: 60px;
+                        
                     }
 
                     p {
                         padding-top: 1rem;
                         text-align: center;
+                        width: 80%;
                     }
                 }
 
@@ -145,6 +160,7 @@
                     p {
                         padding-top: 1rem;
                         text-align: center;
+                        width: 80%;
                     }
                 }
 
@@ -159,6 +175,7 @@
                     p {
                         padding-top: 1rem;
                         text-align: center;
+                        width: 80%;
                     }
                 }
             }

@@ -23,7 +23,7 @@ const Application = () => {
                         <h3>IMPULSA TU NEGOCIO Y SORPRENDE A <b className="amarillo">TUS CLIENTES Y A TU EQUIPO COMERCIAL</b></h3>
                     </div>
                     <div className="experiencias">
-                        <h2>REGALA <b className="verde">EXPERIENCIAS</b> DESDE <b id="amarillo">12€</b></h2>
+                        <h2>REGALAR <b className="verde">EXPERIENCIAS</b> DESDE <b id="amarillo">12€</b></h2>
                     </div>
                 </ImageSlider>
             </div>

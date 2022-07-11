@@ -29,7 +29,7 @@ export default function Main() {
                 <img src={valladolid} alt="escudo-equipo" />
             </div>
             <div className="main-experiencias">
-                <h1>MÁS DE 150 EXPERIENCIAS EXCLUSIVAS DE LOS CLUBES DE FÚTBOL MAS RECONOCIDOS</h1>
+                <h1>SPORTBOX ES LA CAJA DE REGALO CON MÁS DE 150 EXPERIENCIAS EXCLUSIVAS DE LOS CLUBES DE FÚTBOL</h1>
                 <p>Marca la diferencia en tu sector con la mejor selección de incentivos para captación y fidelización</p>
             </div>
             <div className="main-video-container">
@@ -38,7 +38,7 @@ export default function Main() {
                 </div>
             </div>
             <div className="main-marcas">
-                <p>Empresas que confían nosotros</p>
+                <p>Empresas que confían en nosotros</p>
                 <img className="main-marcas-desktop" src={marcas} alt="marcas" />
                 <img className="main-marcas-mobile" src={marcasM} alt="marcasM" />
             </div>

@@ -1,7 +1,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding-top: 3rem;
+    
 
     .logo {
         margin: 0 0 0 3rem;
@@ -20,12 +20,15 @@
     @media screen and (min-width: 300px) and (max-width:859px) {
         align-items: center;
 
+        margin-top: -5rem;
+        margin-left: -2rem;
+
         .logo {
             img {
-                width: 80%;
+                width: 60%;
             }
 
-            width: 80%;
+            width: 200px;
         }
 
         button {

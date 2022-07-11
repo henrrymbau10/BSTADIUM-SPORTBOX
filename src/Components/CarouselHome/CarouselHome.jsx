@@ -17,6 +17,7 @@ const Dot = styled.div`
   opacity: ${(props) => (props.isActive ? 1 : 0.5)};
   margin: 5px;
   transition: 750ms all ease-in-out;
+  display: none;
 `;
 
 const Indicator = ({ currentSlide, amountSlides, nextSlide }) => {
