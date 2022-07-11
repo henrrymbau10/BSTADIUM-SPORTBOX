@@ -12,7 +12,7 @@ export default function Home() {
                 <h1 className="bstadium-text">BSTADIUM</h1>
             </div>
             <div className="subtitle">
-                <h3>IMPULSA TU NEGOCIO Y SORPRENDE A <b>TUS CLIENTES Y A TU EQUIPO COMERCIAL</b></h3>
+                <h3>IMPULSA TU NEGOCIO Y SORPRENDE A <b className="amarillo">TUS CLIENTES Y A TU EQUIPO COMERCIAL</b></h3>
             </div>
             <div className="experiencias">
                 <h2>REGALA <b className="verde">EXPERIENCIAS</b> DESDE <b id="amarillo">12€</b></h2>

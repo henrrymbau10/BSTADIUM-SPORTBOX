@@ -22,21 +22,21 @@ export default function Ventajas() {
                 <div className="ventajas-content-icons">
                     <div className="ventajas-content-icons-gift">
                         <img src={regalo} alt="regalo" />
-                        <p>Mas de 150 experiencias de prestigio y calidad a escoger</p>
+                        <p>Más de 150 experiencias de prestigio y calidad a escoger</p>
                     </div>
                     <div className="ventajas-content-icons-pack">
                         <img src={pack} alt="pack" />
-                        <p>Te asesoramos tu pack en base a tus objeetivos y perfil de clientes</p>
+                        <p>Te asesoramos tu pack en base a tus objetivos y perfil de clientes</p>
                     </div>
                     <div className="ventajas-content-icons-descuentos">
                         <img src={descuento} alt="descuento" />
-                        <p>Garantizamos los mejores descuetos pata que tus clientes y equipo comercial viva una experiencia inolvidable</p>
+                        <p>Garantizamos los mejores descuentos para que tus clientes y equipo comercial vivan una experiencia inolvidable</p>
                     </div>
                 </div>
             </div>
 
             <div className="ventajas-catalogo">
-                <p>Nuestros expertos te ayyudarán a personalizar tu pack que sorprenderá a tu equipo, clientes y red comercial</p>
+                <p>Nuestros expertos te ayudarán a personalizar tu pack que sorprenderá a tu equipo, clientes y red comercial</p>
                 <button>DESCUBRE NUESTRO CATÁLOGO</button>
             </div>
 

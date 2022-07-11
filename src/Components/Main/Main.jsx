@@ -28,7 +28,7 @@ export default function Main() {
             </div>
             <div className="main-experiencias">
                 <h1>MÁS DE 150 EXPERIENCIAS EXCLUSIVAS DE LOS CLUBES DE FÚTBOL MAS RECONOCIDOS</h1>
-                <p>Marca la diferencia en tu sector con la major seleccioón de incentivos para captación y fidelización</p>
+                <p>Marca la diferencia en tu sector con la mejor selección de incentivos para captación y fidelización</p>
             </div>
             <div className="main-video-container">
                 <div className="main-video">

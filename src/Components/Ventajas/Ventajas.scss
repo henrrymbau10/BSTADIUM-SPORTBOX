@@ -18,14 +18,18 @@
         justify-content: space-evenly;
 
         .ventajas-content-img {
+            width: 50%;
+            text-align: end;
+
             img {
                 width: 226px;
+                margin-right: 4rem;
             }
         }
 
         .ventajas-content-icons {
             margin-top: 2rem;
-            width: 30%;
+            width: 50%;
 
             .ventajas-content-icons-gift {
                 display: flex;
@@ -33,13 +37,13 @@
                 margin: 0 0 3rem 0;
 
                 img {
-                    width: 8%;
+                    width: 30px;
                     margin-right: 2rem;
                 }
 
                 p {
                     font-size: 18px;
-                    width: 85%;
+                    width: 55%;
                 }
             }
 
@@ -49,13 +53,13 @@
                 margin: 0 0 3rem 0;
 
                 img {
-                    width: 8%;
+                    width: 30px;
                     margin-right: 2rem;
                 }
 
                 p {
                     font-size: 18px;
-                    width: 85%;
+                    width: 55%;
                 }
             }
 
@@ -65,13 +69,13 @@
                 margin: 0 0 3rem 0;
 
                 img {
-                    width: 8%;
+                    width: 30px;
                     margin-right: 2rem;
                 }
 
                 p {
                     font-size: 18px;
-                    width: 85%;
+                    width: 55%;
                 }
             }
         }

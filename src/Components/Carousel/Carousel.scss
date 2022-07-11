@@ -11,28 +11,34 @@
             text-align: center;
             width: 70%;
             padding-bottom: 2rem;
+            font-weight: 800;
+        }
+
+        p {
+            font-size: 25px;
         }
     }
 
     .carousel-imgs {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
 
         .carousel-div {
             display: flex;
             flex-direction: column;
             align-items: center;
+            justify-content: center;
             background-image: url("../../Assets/Desktop/6.png");
             background-size: contain;
             background-repeat: no-repeat;
-            width: 35%;
+            width: 370px;
             height: 300px;
+            background-position: center;
 
             h2 {
                 text-align: center;
                 width: 60%;
                 color: white;
-                padding-top: 7rem;
             }
 
             button {
@@ -50,17 +56,18 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            justify-content: center;
             background-image: url("../../Assets/Desktop/1.png");
             background-size: contain;
             background-repeat: no-repeat;
-            width: 35%;
+            width: 370px;
             height: 300px;
+            background-position: center;
 
             h2 {
                 text-align: center;
                 width: 60%;
                 color: white;
-                padding-top: 6.5rem;
             }
 
             button {
