@@ -4,6 +4,8 @@
 
     @media screen and (min-width: 300px) and (max-width:859px) {
         background-image: url(../../../Assets/Mobile/footer.png);
+        background-repeat: no-repeat;
+        background-size: cover;
         height: 300px;
         display: flex;
         flex-direction: column;

@@ -45,7 +45,7 @@ const Wrapper = styled.div`
 
 const Slide = styled.div`
   height: 100%;
-  width: 100vw;
+  width: 100%;
   flex-shrink: 0;
   background-position: center;
   background-size: cover;
