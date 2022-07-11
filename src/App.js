@@ -1,6 +1,7 @@
 
 import './App.css';
 import Carousel from './Components/Carousel/Carousel';
+import Application from './Components/CarouselHome/CarouselItem';
 import Footer from './Components/Footer/Footer';
 import Home from './Components/Home/Home';
 import Main from './Components/Main/Main';
@@ -10,7 +11,7 @@ import Ventajas from './Components/Ventajas/Ventajas';
 function App() {
   return (
     <div className="App">
-      <Home/>
+      <Application/>
       <Main/>
       <Ventajas/>
       <Carousel/>
