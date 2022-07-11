@@ -63,6 +63,35 @@
             color: #FFCC33;
             font-size: 50px;
         }
+    }
 
+    @media screen and (min-width: 300px) and (max-width:859px) {
+        background-image: url(../../Assets/Mobile/home.png);
+
+        .title {
+            margin-top: 4rem;
+
+            h1 {
+                margin: 0 2rem 0 2rem;
+                font-size: 50px;
+            }
+        }
+
+        .subtitle {
+            margin: 2rem 0;
+
+            h3 {
+                width: 90%;
+                font-size: 24px;
+            }
+        }
+
+        .experiencias {
+            h2 {
+                text-align: center;
+                margin: 0 2rem;
+                font-size: 30px;
+            }
+        }
     }
 }

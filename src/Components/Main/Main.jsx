@@ -10,6 +10,8 @@ import sociedad from "../../Assets/Desktop/Escudo Real Sociedad.svg"
 import betis from "../../Assets/Desktop/escudo betis.svg"
 import valladolid from "../../Assets/Desktop/Escudo Real Valladolid.svg"
 import marcas from "../../Assets/Desktop/Group 135.svg"
+import marcasM from "../../Assets/Mobile/Marcas-mobile.svg"
+
 
 export default function Main() {
     return (
@@ -37,7 +39,8 @@ export default function Main() {
             </div>
             <div className="main-marcas">
                 <p>Empresas que confían nosotros</p>
-                <img src={marcas} alt="marcas" />
+                <img className="main-marcas-desktop" src={marcas} alt="marcas" />
+                <img className="main-marcas-mobile" src={marcasM} alt="marcasM" />
             </div>
 
         </div>

@@ -16,4 +16,20 @@
         border: none;
         font-weight: bold;
     }
+
+    @media screen and (min-width: 300px) and (max-width:859px) {
+        align-items: center;
+
+        .logo {
+            img {
+                width: 80%;
+            }
+
+            width: 80%;
+        }
+
+        button {
+            font-size: 16px;
+        }
+    }
 }

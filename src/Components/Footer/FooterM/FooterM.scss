@@ -1,0 +1,17 @@
+.footerm {
+    display: none;
+    color: white;
+
+    @media screen and (min-width: 300px) and (max-width:859px) {
+        background-image: url(../../../Assets/Mobile/footer.png);
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h2 {
+            text-align: center;
+        }
+    }
+}

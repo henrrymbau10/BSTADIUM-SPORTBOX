@@ -92,4 +92,29 @@
             ;
         }
     }
+
+    @media screen and (min-width: 300px) and (max-width:859px) {
+
+        .carousel-text {
+            h1 {
+                width: 90%;
+            }
+
+            p {
+                text-align: center;
+                width: 80%;
+            }
+        }
+
+        .carousel-imgs {
+            .carousel-div {
+                width: 350px;
+                ;
+            }
+
+            .carousel-div2 {
+                display: none;
+            }
+        }
+    }
 }

@@ -105,4 +105,77 @@
             margin-bottom: 4rem;
         }
     }
+
+    @media screen and (min-width: 300px) and (max-width:859px) {
+        .ventajas-title {
+            h1 {
+                text-align: center;
+            }
+        }
+
+        .ventajas-content {
+            flex-direction: column;
+            align-items: center;
+
+            .ventajas-content-icons {
+                width: 100%;
+
+                .ventajas-content-icons-gift {
+                    flex-direction: column;
+
+                    img {
+                        margin: 0;
+                        width: 60px;
+                    }
+
+                    p {
+                        padding-top: 1rem;
+                        text-align: center;
+                    }
+                }
+
+                .ventajas-content-icons-pack {
+                    flex-direction: column;
+
+                    img {
+                        margin: 0;
+                        width: 60px;
+                    }
+
+                    p {
+                        padding-top: 1rem;
+                        text-align: center;
+                    }
+                }
+
+                .ventajas-content-icons-descuentos {
+                    flex-direction: column;
+
+                    img {
+                        margin: 0;
+                        width: 60px;
+                    }
+
+                    p {
+                        padding-top: 1rem;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
+        .ventajas-catalogo {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 0;
+
+            p {
+                width: 70%;
+            }
+
+            button {
+                margin: 0 0 3rem 0;
+            }
+        }
+    }
 }

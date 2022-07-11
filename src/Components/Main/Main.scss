@@ -33,10 +33,11 @@
         .main-video {
             background-position: center;
             background-color: black;
-            width: 50%;
+            width: 70%;
             height: 380px;
             border: 30px solid #E3E3E3;
             border-radius: 20px;
+            max-width: 900px;
         }
     }
 
@@ -56,6 +57,43 @@
         img {
             width: 80%
         }
+
+        .main-marcas-mobile {
+            display: none;
+        }
     }
 
+    @media screen and (min-width: 300px) and (max-width:859px) {
+        .main-escudos {
+            display: none;
+
+            img {
+                height: 80px;
+            }
+        }
+
+        .main-experiencias {
+            margin-top: 3rem;
+
+            h1 {
+                width: 90%;
+                font-size: 26px;
+            }
+
+            p {
+                width: 80%;
+            }
+        }
+
+        .main-marcas {
+
+            .main-marcas-desktop {
+                display: none;
+            }
+
+            .main-marcas-mobile {
+                display: block;
+            }
+        }
+    }
 }
