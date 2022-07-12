@@ -2,35 +2,46 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
 
-    .contacto-title {
+    p {
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        padding: 1rem 0 1rem 0;
+    }
+
+    .form-container {
+        margin: 3rem 0 3rem 0;
+        ;
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 3rem;
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 90%;
+        justify-content: center;
+        padding: 1rem 1rem;
 
-        h1 {
-            text-align: center;
-            width: 60%;
-            font-weight: 800;
-        }
-    }
-
-    .contacto-button {
-        display: flex;
-        align-items: center;
-        background-color: #CCCBFF;
-        padding: 1rem 2rem;
-        border-radius: 45px;
-        margin: 2rem 0 3rem 0;
-
-        img {
-            margin-right: 1rem;
-            width: 30px;
+        input {
+            margin: 1rem 2rem 1rem 2rem;
+            border-radius: 10px;
+            padding: 1rem;
+            width: 70%;
+            max-width: 450px;
         }
 
-        p {
+        button {
+            background-color: #34FF98;
+            color: white;
             font-size: 20px;
+            padding: 1rem;
+            width: 77%;
+            max-width: 486px;
+            border-radius: 10px;
         }
     }
 

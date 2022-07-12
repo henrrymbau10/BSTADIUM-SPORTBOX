@@ -1,17 +1,17 @@
 import React from 'react'
 import "./Footer2.scss"
-import sobre from "../../../Assets/Icons/Vectorsobre.svg"
 
 export default function Footer2() {
     return (
         <div className="contacto">
-
-            <div className="contacto-title">
-                <h1>CONTACTA CON NOSOTROS PARA CONOCER MÁS DE NUESTROS PRODUCTOS Y SERVICIOS</h1>
-            </div>
-            <div className="contacto-button">
-                <img src={sobre} alt="sobre" />
-                <p>HOLA@SPORTBOX.ES</p>
+            <div className="form-container">
+                <p>Déjanos tus datos, <b>un experto te contactará</b></p>
+                <input type="text" placeholder="Nombre" />
+                <input type="email" placeholder="Email" />
+                <input type="number" placeholder="Teléfono" />
+                <input type="text" placeholder="Empresa" />
+                <input type="text" placeholder="Consulta" />
+                <button>Contáctanos</button>
             </div>
         </div>
     )
